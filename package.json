@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "lint": "eslint ./",
+    "check-lint": "lint [0-9]*.js",
+    "dev": "npx babel-node",
+    "test": "jest",
+    "full-test": "eslint [0-9]*.js && jest",
+    "local": "nodemon --exec npm run dev src/server"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/eslint-parser": "^7.24.1",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.4",
+    "babel-jest": "^29.7.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^28.2.0",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "joi": "^17.12.3",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.4",
+    "nodemon": "^3.1.0",
+    "prompt-sync": "^4.2.0",
+    "redis": "^4.6.13",
+    "uuid": "^9.0.1"
+  },
+  "name": "employeeapp-js-group02",
+  "description": "Welcome to our Employee Management App project! This repository contains the code for managing employee data using JavaScript. Our group members are Nmesoma Jeff-Nwankwo, Princess Asare, and Izzedin Ishimwe.",
+  "version": "1.0.0",
+  "main": "Employee.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
