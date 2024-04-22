@@ -1,9 +1,10 @@
+/* eslint-disable import/extensions */
 /* eslint-disable class-methods-use-this */
-import db from './Database';
-import Employee from '../models/Employee';
+import db from './Database.js';
+import Employee from '../models/Employee.js';
 import {
   del, get, getAll, set,
-} from './cache';
+} from './cache.js';
 
 export default class EmployeeTable {
   async create(employee) {

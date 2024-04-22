@@ -52,5 +52,3 @@ Welcome to our Employee Management App project! This repository contains the cod
 ## Group Members
 ### James Liyimoal Djoteng
 ### Rosemond
-
-Feel free to explore the code in this repository.

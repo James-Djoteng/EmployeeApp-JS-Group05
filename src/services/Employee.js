@@ -1,7 +1,8 @@
+/* eslint-disable import/extensions */
 /* eslint-disable class-methods-use-this */
 import { v4 as uuidv4 } from 'uuid';
-import Employee from '../models/Employee';
-import EmployeeTable from '../persistance/Employee';
+import Employee from '../models/Employee.js';
+import EmployeeTable from '../persistance/Employee.js';
 
 export default class EmployeeService {
   employeeTable = null;
